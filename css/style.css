@@ -1,0 +1,258 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+/* Page Header Section */
+div.header, div.color_gradient {
+    background-image: linear-gradient(top, #00838f, #00838f 45%, transparent 45%, transparent 100%);
+    background-image: -webkit-linear-gradient(top, #00838f, #00838f 45%, transparent 45%, transparent 100%)
+}
+
+h1.header_title {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+span.first_name {
+    font-weight: 400;
+}
+
+span.last_name {
+    font-weight: 100;
+}
+
+div.bg_color_on, div.bg_color_off {
+    margin-top: 100px;
+}
+
+h2#occupation {
+    color: #ffffff;
+    background-color: #00838f;
+    margin-top: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+img#profile_picture {
+    max-width: 40%;
+    max-height: 50%;
+    border: 1px solid #ffffff;
+}
+
+p.intro_description {
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 100px;
+}
+
+/* Body section*/
+.row .priorities_section{
+    margin-left: 0;
+    margin-bottom: 0;
+    height: 30px;
+}
+
+div.col.s1.title_first_block {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    width: 24px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+div.col.s11.title_second_block {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    width: 250px;
+    height: 30px;
+    padding-top: 4px;
+    margin-left: 5px;
+}
+
+.material-icons {
+    padding-top: 1px;
+}
+
+
+h3.employment, h3.skills, h3.education, h3.strengths, h3.communication {
+    margin-top: 0;
+    background-color: #00838f;
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+div.left_dotted_border {
+    background-image: linear-gradient(#00838f 33%, rgba(255,255,255,0) 0%);
+    background-size: 1px 5px;
+    background-repeat: repeat-y;
+}
+
+p.description {
+    margin-top: 0;
+}
+
+p.company_title, p.school_title {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+p.job_position, p.program_title {
+    color: #00838f;
+    margin-top: 0;
+}
+
+p.job_position {
+    margin-bottom: 5px;
+}
+
+p.year {
+    margin-left: -4px;
+}
+
+#interpunct {
+    color: #00838f;
+    margin-right: 10px;
+}
+
+.progress {
+    background-color: #b2ebf2;
+}
+
+.progress .determinate {
+    background-color: #00838f;
+}
+
+/* Progress bars for professional skills */
+div.determinate {
+    width: 70%;
+}
+
+div.progress {
+    height: 6px;
+    margin-top: 22px;
+}
+.container .skill_row {
+    margin-left: 0;
+}
+
+div.progress_bar_row {
+    margin-bottom: 0;
+}
+/* Skills tab */
+div.determinate.python {
+    width: 20%;
+}
+
+div.determinate.ror {
+    width: 40%;
+}
+
+div.determinate.pl_sql {
+    width: 70%;
+}
+
+div.determinate.sv_desk {
+    width: 30%;
+}
+
+div.determinate.networking {
+    width: 30%;
+}
+
+div.determinate.oracle {
+    width: 50%;
+}
+
+div.determinate.postgresql {
+    width: 40%;
+}
+
+/* Strengths tab*/
+div.determinate.communication {
+    width: 50%;
+}
+
+div.determinate.team_work {
+    width: 80%;
+}
+
+div.determinate.reliable {
+    width: 90%;
+}
+
+div.determinate.creativity {
+    width: 30%;
+}
+
+div.determinate.technical_thinking {
+    width: 60%;
+}
+
+div.determinate.proactive {
+    width: 50%;
+}
+
+
+/* Communication tab*/
+div.determinate.english {
+    width: 80%;
+}
+
+div.determinate.danish {
+    width: 10%;
+}
+
+div.determinate.russian {
+    width: 25%;
+}
+
+div.determinate.latvian {
+    width: 95%;
+}
+
+div.determinate.german {
+    width: 30%;
+}
+
+.education_row {
+    height: 255px;
+}
+
+.strength_row {
+    height: 335px;
+}
+
+/* Footer selection */
+footer.page-footer {
+    margin-top: 0;
+    padding-top: 0;
+    background-color: #00838f;
+}
+
+.headerDivider {
+     border-left:1px solid #ffffff;
+     border-right:1px solid #ffffff;
+     height:80px;
+     right:249px;
+     top:10px;
+}
